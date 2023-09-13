@@ -17,7 +17,7 @@ body {
 }
 
 .languageButton {
-  background-color: #222222;
+  background-color: black;
   border-radius: 0 0 5px 5px;
   color: white;
   width: 30%;
@@ -26,6 +26,10 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
+}
+
+.languageButton:hover {
+  box-shadow: 0 0 5px black;
 }
 
 .euaIcon {
@@ -99,6 +103,11 @@ ul {
 
 .social-icons {
   width: 20px;
+  border-radius: 25%;
+}
+
+.social-icons:hover {
+  box-shadow: 0 0 3px;
 }
 
 .social-links {
@@ -107,6 +116,7 @@ ul {
 
 .github {
   margin: 0 10px 0 10px;
+  border-radius: 100%;
 }
 
 .footer {
